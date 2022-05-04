@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/BoxCat-Games-Epic-Song.mp3-5a730d19dab405dfa8fcc7d0e585d9e4.mp3str"
+
+[deps]
+
+source_file="res://audio/BoxCat-Games-Epic-Song.mp3"
+dest_files=[ "res://.import/BoxCat-Games-Epic-Song.mp3-5a730d19dab405dfa8fcc7d0e585d9e4.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

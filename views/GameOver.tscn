@@ -1,0 +1,48 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://fonts/UI Font.tres" type="DynamicFont" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 0.475
+anchor_bottom = 0.617
+margin_right = -0.400024
+margin_bottom = -0.200012
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Play as X" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -91.5
+margin_top = -19.0
+margin_right = 91.5
+margin_bottom = 19.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 0.0784314, 0.145098, 0.501961, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "Play as X"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Play as O" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -91.5
+margin_top = 35.0
+margin_right = 91.5
+margin_bottom = 73.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 0.541176, 0.101961, 0.101961, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "Play as O"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
